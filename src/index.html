@@ -4,15 +4,248 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TailWind -->
     <link rel="stylesheet" href="../public/dist/output.css">
+    <!-- Mine CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <title>Pica Dulces</title>
   </head>
-  <body>
-    <h1 class="font bold text-red-500">Hello, world!</h1>
+  <body class="container mx-auto bg-gray-200">
+    
+    <header class=" body-font bg-blue-900 text-white">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img src="../img/circle-cropped.png" class="w-20 h-20 rounded-full" alt="">
+          <!-- <svg xmlns="" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24"> -->
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl text-white">Pica Dulces</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-blue-400">First Link</a>
+          <a class="mr-5 hover:text-blue-400">Second Link</a>
+          <a class="mr-5 hover:text-blue-400">Third Link</a>
+          <a class="mr-5 hover:text-blue-400">Fourth Link</a>
+        </nav>
+        
+      </div>
+    </header>
 
+    
 
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+      <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+        <div class="flex justify-between items-end gap-4 mb-6">
+          <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold">Candy</h2>
+        </div>
+    
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-8">
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/gusher(1).webp" loading="lazy" alt="Photo by Rachit Tank" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Gushers</a>
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$7.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/skittiles.webp" loading="lazy" alt="Photo by Galina N" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Skittles</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$7.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/belts.webp" loading="lazy" alt="Photo by eniko kis" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Sour Belts</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$8.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/peach.webp" loading="lazy" alt="Photo by Irene Kredenets" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Peach Slices</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$7.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/gummy.webp" loading="lazy" alt="Photo by Charles Deluvio" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Gummy Bears</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$5.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/sour.webp" loading="lazy" alt="Photo by Fernando Lavin" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Sour Patch Kids</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$7.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/straws.webp" loading="lazy" alt="Photo by Kiran CK" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+              
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Sour Straws</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$6.00</span>
+    
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/worms.webp" loading="lazy" alt="Photo by Fakurian Design" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Gummy Worms</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$6.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-8">
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/mongo.webp" loading="lazy" alt="Photo by Rachit Tank" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+    
+              <span class="bg-red-500 text-white text-sm tracking-wider uppercase rounded-br-lg absolute left-0 top-0 px-3 py-1.5">sale</span>
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Mango Gummies</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$6.00</span>
+                <span class="text-red-500 line-through mb-0.5">$8.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/rainbow.webp" loading="lazy" alt="Photo by Galina N" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Rainbow Bites</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$7.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/plate.webp" loading="lazy" alt="Photo by eniko kis" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Variety Plate</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$27.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+          <!-- product - start -->
+          <div>
+            <a href="#" class="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+              <img src="../img/basket.webp" loading="lazy" alt="Photo by Irene Kredenets" class="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200" />
+            </a>
+    
+            <div>
+              <a href="#" class="text-gray-500 hover:gray-800 lg:text-lg transition duration-100 mb-1">Mexican Candy</a>
+    
+              <div class="flex items-end gap-2">
+                <span class="text-gray-800 lg:text-lg font-bold">$10.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- product - end -->
+    
+         
+    </div>
    
-
-  
+    <!-- Swiper Js file -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js"></script>
+    
   </body>
 </html>
