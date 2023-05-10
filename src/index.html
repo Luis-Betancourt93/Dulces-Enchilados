@@ -10,22 +10,26 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- Swiper CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/png" href="../img/favicon-32x32.png">
+
     <title>Pica Dulces</title>
   </head>
   <body class="container mx-auto bg-gray-200">
     
-    <header class=" body-font bg-blue-900 text-white">
+    <header class=" body-font bg-blue-600 text-white  ">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <span class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span class="ml-3 text-xl text-white">Dulces Enchilados</span>
         </span>
-        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 hover:text-blue-400">Candy</a>
-          <a class="mr-5 hover:text-blue-400">Pricing</a>
-          <a class="mr-5 hover:text-blue-400">Location</a>
-          <a class="mr-5 hover:text-blue-400">Contact Us</a>
+        
+
+
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center ">
+          <a href="#candy" class="mr-5 hover:text-blue-400">Candy</a>
+          <a href="#pricing" class="mr-5 hover:text-blue-400">Pricing</a>
+          <a  href="#location" class="mr-5 hover:text-blue-400">Location</a>
         </nav>
         
       </div>
@@ -33,16 +37,16 @@
 
 
 
-    <div class="bg-slate-200 rounded-lg py-6 sm:py-8 lg:py-12">
-      <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
-        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+    <div class="bg-slate-200 rounded-lg py-6 sm:py-8 lg:py-12 ">
+      <div class="max-w-screen-xl px-4 md:px-8 mx-auto  ">
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12 ">
           <div>
-            <div class="h-64 md:h-auto bg-gray-100 overflow-hidden rounded-lg shadow-lg">
-              <img src="../img/Final PNG.png" loading="lazy" alt="Photo by Martin Sanchez" class="w-full h-full object-cover object-center" />
+            <div class=" md:h-auto bg-gray-100 overflow-hidden rounded-lg shadow-lg w-full h-full object-cover object-center">
+              <img src="../img/FinalSmall.png" loading="lazy" alt="" class="w-full h-auto object-center " />
             </div>
           </div>
     
-          <div class="md:pt-4">
+          <div class="md:pt-4 ">
             
     
             <h2 class="text-gray-800 text-xl sm:text-2xl font-semibold text-center md:text-left mb-2 md:mb-4">About us</h2>
@@ -55,7 +59,7 @@
     
     
     <div class="bg-white py-6 sm:py-8 lg:py-12">
-      <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">Candy's</h2>
+      <h2 id="candy" class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">Candy's</h2>
       <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
         <div class="flex justify-between items-end gap-4 mb-6">
         </div>
@@ -238,7 +242,7 @@
 
     <div class="bg-white py-6 sm:py-8 lg:py-12">
       <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
-        <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">Pricing</h2>
+        <h2 id="pricing" class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">Pricing</h2>
     
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-6 md:mb-8">
           <!-- plan - start -->
@@ -439,7 +443,7 @@
     </div>
 
     <!-- Location Starts -->
-    <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">Locations</h2>
+    <h2 id="location" class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8 xl:mb-12">Locations</h2>
     <section class="text-gray-600 body-font relative">
       <div class="absolute inset-0">
       
@@ -463,6 +467,9 @@
         </div>
       </div>
     </section>
+    <!-- Locations Ends -->
+
+   
 
     <div class="bg-white pt-4 sm:pt-10 lg:pt-12">
       <footer class="max-w-screen-2xl px-4 md:px-8 mx-auto">
@@ -487,6 +494,6 @@
     <!-- Swiper Js file -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="../js/swiper.js"></script>
-    
+    <script src="../js/index.js"></script>
   </body>
 </html>
